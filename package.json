@@ -1,0 +1,20 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/serve",
+    "build": "rollup --config rollup.config.js"
+  },
+  "devDependencies": {
+    "@bgoodman/minesweeper-game": "file:../apps/minesweeper/",
+    "custom-elements-bundle": "file:../custom-elements-bundle",
+    "rollup": "^1.29.0",
+    "rollup-plugin-terser": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "serve": "^11.3.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {}
+}

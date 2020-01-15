@@ -1,0 +1,49 @@
+@use 'themes';
+
+$app-bar-height: 20px;
+
+body {
+    margin: 0;
+}
+
+.container {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.app-bar {
+    width: 100%;
+    background: themes.$GREY-2;
+    border: 1px solid themes.$GREY-4;
+    height: $app-bar-height;
+}
+
+#main {
+    background: themes.$GREY-1;
+    height: calc(100vh - (2 * #{$app-bar-height}));
+}
+
+.s-grid {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 40px 40px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.click-icon {
+    width: 30px;
+    height: 30px;
+    background: themes.$GREY-2;
+    cursor: pointer;
+    border: 1px solid themes.$GREY-4;
+
+    &:active {
+        outline: 1px solid themes.$BLUE-2;
+    }
+}
+
+#apps-pane {
+    left: 90vw;
+    top: 10vh;
+}

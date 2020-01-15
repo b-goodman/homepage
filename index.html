@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/public/css/index.css"/>
+    <script type="module" src="/public/modules/custom-elements/index.js"></script>
+    <script type="module" src="/public/modules/minesweeper/index.js"></script>
+    <script type="module">
+        import {initializeViewControllers} from "/public/client/index.js"
+        initializeViewControllers();
+    </script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <header class="app-bar">
+
+        </header>
+
+        <div id="main">
+
+            <drag-pane hide-controls id="apps-pane" key="app-pane">
+                <div class="s-grid">
+
+                    <div class="click-icon" id="ms-app" title="Minesweeper">
+                        <img src="/public/icons/ms-app-icon.svg" alt="Minesweeper game icon."/>
+                    </div>
+
+                    <div class="click-icon"></div>
+                    <div class="click-icon"></div>
+                    <div class="click-icon"></div>
+                </div>
+            </drag-pane>
+        </div>
+
+    </div>
+
+
+    <!-- <footer class="app-bar">
+
+    </footer> -->
+
+</body>
+</html>

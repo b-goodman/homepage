@@ -1,0 +1,26 @@
+<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <rect fill="#fff" id="canvas_background" height="32" width="32" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Minesweeper</title>
+  <rect stroke="#000" id="svg_15" height="7.26618" width="25.10787" y="22.73043" x="4.82016" stroke-opacity="null" stroke-width="0" fill="#e8f1f9"/>
+  <rect stroke="#000" id="svg_14" height="7.33812" width="3.741" y="22.73043" x="0.00002" stroke-opacity="null" stroke-width="0" fill="#007fff"/>
+  <rect stroke="#000" id="svg_13" height="5.03596" width="3.81294" y="-0.14723" x="0.00002" stroke-opacity="null" stroke-width="0" fill="#007fff"/>
+  <rect stroke="#000" id="svg_12" height="15.89926" width="4.02877" y="6.03981" x="-0.07192" stroke-opacity="null" stroke-width="0" fill="#f46b6b"/>
+  <rect stroke="#000" id="svg_11" height="5.03596" width="10.21581" y="-0.00335" x="19.78417" stroke-opacity="null" stroke-width="0" fill="#f9a2a2"/>
+  <rect stroke="#000" id="svg_10" height="5.03596" width="14.53235" y="-0.14723" x="4.60433" stroke-opacity="null" stroke-width="0" fill="#007fff"/>
+  <rect stroke="#000" id="svg_9" height="16.54674" width="10.28775" y="5.75204" x="19.71222" stroke-opacity="null" stroke-width="0" fill="#007fff"/>
+  <rect id="svg_7" height="16.69062" width="15.61149" y="5.53621" x="4.10074" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#f98181"/>
+  <line stroke="#000" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="30.03868" x2="4.17268" y1="-0.25514" x1="4.17268" stroke-width="1.5" fill="none"/>
+  <line stroke="#000" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="22.19697" x2="19.6132" y1="-0.11126" x1="19.6132" stroke-width="1.5" fill="none"/>
+  <line stroke="#000" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="5.46427" x2="30.07192" y1="5.46427" x1="0.00003" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
+  <line stroke="#000" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_6" y2="22.23933" x2="30.14386" y1="22.23933" x1="-0.07192" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_8" y="20.06856" x="6.97843" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">3</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_16" y="3.52183" x="22.44603" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">2</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_18" y="20.28439" x="-7.91363" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">5</text>
+ </g>
+</svg>

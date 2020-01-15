@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+.container {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.app-bar {
+  width: 100%;
+  background: #A6A6A6;
+  border: 1px solid #404040;
+  height: 20px;
+}
+
+#main {
+  background: #F2F2F2;
+  height: calc(100vh - (2 * 20px));
+}
+
+.s-grid {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 40px 40px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.click-icon {
+  width: 30px;
+  height: 30px;
+  background: #A6A6A6;
+  cursor: pointer;
+  border: 1px solid #404040;
+}
+.click-icon:active {
+  outline: 1px solid #4B688C;
+}
+
+#apps-pane {
+  left: 90vw;
+  top: 10vh;
+}
+
+/*# sourceMappingURL=index.css.map */
