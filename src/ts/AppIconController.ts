@@ -1,4 +1,4 @@
-import {DragPane, MinesweeperGame} from "./CustomElements";
+import {DragPane, MinesweeperGame} from "./Interfaces/CustomElements";
 
 enum App {
     MINESWEEPER = "ms-app",

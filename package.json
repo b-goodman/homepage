@@ -8,6 +8,7 @@
     "build": "rollup --config rollup.config.js"
   },
   "devDependencies": {
+    "@bgoodman/date-clock": "../custom-elements/date-clock",
     "@bgoodman/minesweeper-game": "file:../apps/minesweeper/",
     "custom-elements-bundle": "file:../custom-elements-bundle",
     "rollup": "^1.29.0",

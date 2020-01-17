@@ -18,6 +18,9 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@bgoodman/date-clock@../custom-elements/date-clock":
+  version "1.0.0"
+
 "@bgoodman/minesweeper-game@file:../apps/minesweeper":
   version "1.1.1"
 
@@ -224,7 +227,7 @@ cross-spawn@^5.0.1:
 "custom-elements-bundle@file:../custom-elements-bundle":
   version "1.0.0"
   dependencies:
-    img-slideshow "file:../../Library/Caches/Yarn/v4/npm-custom-elements-bundle-1.0.0-f77b590f-4975-48e3-af8c-3c6422eea6a0-1579107176914/node_modules/custom-elements/img-slideshow"
+    img-slideshow "file:../../Library/Caches/Yarn/v4/npm-custom-elements-bundle-1.0.0-48eebffe-7162-416f-bf53-e8a1bf321504-1579238721703/node_modules/custom-elements/img-slideshow"
 
 debug@2.6.9:
   version "2.6.9"

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/public/css/index.css"/>
     <script type="module" src="/public/modules/custom-elements/index.js"></script>
     <script type="module" src="/public/modules/minesweeper/index.js"></script>
+    <script type="module" src="/public/modules/clock/index.js"></script>
     <script type="module">
         import {initializeViewControllers} from "/public/client/index.js"
         initializeViewControllers();
@@ -21,6 +22,15 @@
         </header>
 
         <div id="main">
+
+            <!-- <drag-pane>
+                <code-edit></code-edit>
+            </drag-pane> -->
+
+
+            <drag-pane>
+                <date-clock></date-clock>
+            </drag-pane>
 
             <drag-pane hide-controls id="apps-pane" key="app-pane">
                 <div class="s-grid">
