@@ -18,7 +18,9 @@
 
     <div class="container">
         <header class="app-bar">
-
+            <div class="row right">
+                <div class="click-icon header-element" id="header-clock" data-app-name="clock-app"></div>
+            </div>
         </header>
 
         <div id="main">
@@ -28,18 +30,30 @@
             </drag-pane> -->
 
             <drag-pane hide-controls id="apps-pane" key="app-pane">
-                <div class="s-grid">
+                <hr data-text="Games">
 
-                    <div class="click-icon" id="ms-app" title="Minesweeper">
+                <div class="s-grid">
+                    <div class="click-icon app-icon" data-app-name="ms-app" title="Minesweeper">
                         <img src="/public/icons/ms-app-icon.svg" alt="Minesweeper game icon."/>
                     </div>
+                </div>
 
-                    <div class="click-icon" id="clock-app" title="Clock">
+                <hr data-text="Productivity">
+
+                <div class="s-grid">
+                    <div class="click-icon app-icon" data-app-name="console-app" title="Console">
+                        <img src="public/icons/console-app-icon.svg" alt="Console icon." />
+                    </div>
+                </div>
+
+                <hr data-text="Utilities">
+
+                <div class="s-grid">
+                    <div class="click-icon app-icon" data-app-name="clock-app" title="Clock">
                         <img src="/public/icons/clock-app-icon.svg" alt="Clock icon."/>
                     </div>
-                    <div class="click-icon"></div>
-                    <div class="click-icon"></div>
                 </div>
+
             </drag-pane>
         </div>
 

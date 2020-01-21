@@ -1,3 +1,68 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+header .row div {
+  margin: 0 10px 0 10px;
+}
+header .right {
+  justify-content: flex-end;
+}
+
+.s-grid {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 40px 40px 40px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-items: center;
+}
+
+.app-icon {
+  width: 30px;
+  height: 30px;
+  background: #A6A6A6;
+  border: 1px solid #404040;
+}
+.app-icon:active {
+  outline: 1px solid #4B688C;
+}
+
+#apps-pane {
+  left: 90vw;
+  top: 10vh;
+}
+#apps-pane hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  margin: 10px 5px 0 5px;
+}
+#apps-pane hr:after {
+  background: #fff;
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+#apps-pane hr[data-text=Games]:after {
+  content: "Games";
+}
+#apps-pane hr[data-text=Productivity]:after {
+  content: "Productivity";
+}
+#apps-pane hr[data-text=Utilities]:after {
+  content: "Utilities";
+}
+
 body {
   margin: 0;
 }
@@ -19,28 +84,8 @@ body {
   height: calc(100vh - (2 * 20px));
 }
 
-.s-grid {
-  padding: 5px;
-  display: grid;
-  grid-template-columns: 40px 40px;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-}
-
 .click-icon {
-  width: 30px;
-  height: 30px;
-  background: #A6A6A6;
   cursor: pointer;
-  border: 1px solid #404040;
-}
-.click-icon:active {
-  outline: 1px solid #4B688C;
-}
-
-#apps-pane {
-  left: 90vw;
-  top: 10vh;
 }
 
 /*# sourceMappingURL=index.css.map */

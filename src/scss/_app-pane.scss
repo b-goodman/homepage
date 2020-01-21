@@ -1,0 +1,56 @@
+@use 'themes';
+
+.s-grid {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-items: center;
+}
+
+.app-icon {
+    width: 30px;
+    height: 30px;
+    background: themes.$GREY-2;
+    border: 1px solid themes.$GREY-4;
+
+    &:active {
+        outline: 1px solid themes.$BLUE-2;
+    }
+}
+
+#apps-pane {
+    left: 90vw;
+    top: 10vh;
+    // width: 120px;
+
+    hr {
+        border: none;
+        border-top: 3px double #333;
+        color: #333;
+        overflow: visible;
+        text-align: center;
+        height: 5px;
+        margin: 10px 5px 0 5px;
+    }
+
+    hr:after {
+        background: #fff;
+        padding: 0 4px;
+        position: relative;
+        top: -13px;
+    }
+
+    hr[data-text="Games"]:after {
+        content: "Games"
+    }
+
+    hr[data-text="Productivity"]:after {
+        content: "Productivity"
+    }
+
+    hr[data-text="Utilities"]:after {
+        content: "Utilities"
+    }
+}

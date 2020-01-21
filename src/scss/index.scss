@@ -1,4 +1,6 @@
 @use 'themes';
+@use 'header';
+@use 'app-pane';
 
 $app-bar-height: 20px;
 
@@ -23,27 +25,6 @@ body {
     height: calc(100vh - (2 * #{$app-bar-height}));
 }
 
-.s-grid {
-    padding: 5px;
-    display: grid;
-    grid-template-columns: 40px 40px;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-}
-
 .click-icon {
-    width: 30px;
-    height: 30px;
-    background: themes.$GREY-2;
     cursor: pointer;
-    border: 1px solid themes.$GREY-4;
-
-    &:active {
-        outline: 1px solid themes.$BLUE-2;
-    }
-}
-
-#apps-pane {
-    left: 90vw;
-    top: 10vh;
 }

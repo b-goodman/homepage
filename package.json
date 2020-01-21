@@ -8,9 +8,9 @@
     "build": "rollup --config rollup.config.js"
   },
   "devDependencies": {
-    "@bgoodman/date-clock": "../custom-elements/date-clock",
-    "@bgoodman/minesweeper-game": "file:../apps/minesweeper/",
-    "custom-elements-bundle": "file:../custom-elements-bundle",
+    "@bgoodman/date-clock": "https://github.com/b-goodman/date-clock",
+    "@bgoodman/minesweeper-game": "https://github.com/b-goodman/minesweeper-game",
+    "custom-elements-bundle": "https://github.com/b-goodman/custom-elements-bundle",
     "rollup": "^1.29.0",
     "rollup-plugin-terser": "^5.2.0",
     "rollup-plugin-typescript2": "^0.25.3",
