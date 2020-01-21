@@ -1,4 +1,4 @@
-import {DragPane, MinesweeperGame} from "./Interfaces/CustomElements";
+import {DragPane, CodeEdit, MinesweeperGame} from "./Interfaces/CustomElements";
 import ApplicationInstance from "./ApplicationInstance";
 
 export enum App {
@@ -14,6 +14,7 @@ export default class AppIconController {
 
     public msApp: ApplicationInstance<MinesweeperGame.Element>;
     public clockApp: ApplicationInstance;
+    public consoleApp: ApplicationInstance<CodeEdit.Element>;
 
     public static openApps: Map<App, HTMLElement> = new Map();
     public static activeApp: App|undefined = undefined;
@@ -34,6 +35,9 @@ export default class AppIconController {
         this.msApp.applicationEl.scale = 0.6;
 
         this.clockApp = new ApplicationInstance(App.CLOCK, "date-clock", "Clock", this.parentEl);
+
+        this.consoleApp = new ApplicationInstance(App.CONSOLE, "code-edit", "Console", this.parentEl);
+        this.consoleApp.applicationEl.mode = CodeEdit.Mode.javascript;
     }
 
     private handleIconDblClick = (event: MouseEvent) => {
@@ -44,6 +48,9 @@ export default class AppIconController {
                 break;
             case "clock-app":
                 this.clockApp.openApp();
+                break;
+            case "console-app":
+                this.consoleApp.openApp();
                 break;
             default:
                 console.log(appID);

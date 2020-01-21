@@ -12,3 +12,16 @@ export namespace MinesweeperGame {
         scale: number;
     }
 }
+
+export namespace CodeEdit {
+    export enum Mode {
+        htmlmixed = "htmlmixed",
+        javascript = "javascript",
+        typescript = "typescript",
+        markdown = "markdown"
+    }
+    export interface Element extends HTMLElement {
+        mode: Mode;
+        storageKey: string | undefined;
+    }
+}

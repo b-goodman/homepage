@@ -81,11 +81,17 @@ body {
 
 #main {
   background: #F2F2F2;
-  height: calc(100vh - (2 * 20px));
+  height: calc(100vh - 20px);
 }
 
 .click-icon {
   cursor: pointer;
+}
+
+#console-app code-edit {
+  width: 300px;
+  height: 400px;
+  text-align: left;
 }
 
 /*# sourceMappingURL=index.css.map */

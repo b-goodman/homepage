@@ -18,11 +18,13 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@bgoodman/date-clock@../custom-elements/date-clock":
+"@bgoodman/date-clock@https://github.com/b-goodman/date-clock":
   version "1.0.0"
+  resolved "https://github.com/b-goodman/date-clock#401fded0b269b0f2bc351d9410f4042e1eb7d4b1"
 
-"@bgoodman/minesweeper-game@file:../apps/minesweeper":
-  version "1.1.1"
+"@bgoodman/minesweeper-game@https://github.com/b-goodman/minesweeper-game":
+  version "1.1.0"
+  resolved "https://github.com/b-goodman/minesweeper-game#4a50e7e8721e8af8a13696dbf3732f6448be7342"
 
 "@types/estree@*":
   version "0.0.42"
@@ -224,10 +226,11 @@ cross-spawn@^5.0.1:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-"custom-elements-bundle@file:../custom-elements-bundle":
+"custom-elements-bundle@https://github.com/b-goodman/custom-elements-bundle":
   version "1.0.0"
+  resolved "https://github.com/b-goodman/custom-elements-bundle#c27fd052723a5991aae16ff486b8b141f3c74704"
   dependencies:
-    img-slideshow "file:../../Library/Caches/Yarn/v4/npm-custom-elements-bundle-1.0.0-48eebffe-7162-416f-bf53-e8a1bf321504-1579238721703/node_modules/custom-elements/img-slideshow"
+    img-slideshow "file:../../Library/Caches/Yarn/v4/npm-custom-elements-bundle-1.0.0-c27fd052723a5991aae16ff486b8b141f3c74704/node_modules/custom-elements/img-slideshow"
 
 debug@2.6.9:
   version "2.6.9"
