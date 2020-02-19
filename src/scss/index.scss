@@ -29,10 +29,8 @@ body {
     cursor: pointer;
 }
 
-#console-app {
-    code-edit {
-        width: 300px;
-        height: 400px;
-        text-align: left;
-    }
+markdown-editor {
+    width: 1000px;
+    height: 551px;
+    text-align: left;
 }

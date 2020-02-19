@@ -8,14 +8,17 @@
     "build": "rollup --config rollup.config.js"
   },
   "devDependencies": {
-    "@bgoodman/date-clock": "https://github.com/b-goodman/date-clock",
-    "@bgoodman/minesweeper-game": "https://github.com/b-goodman/minesweeper-game",
-    "custom-elements-bundle": "https://github.com/b-goodman/custom-elements-bundle",
+    "@bgoodman/date-clock": "file:../../modules/custom-elements/date-clock",
+    "@bgoodman/markdown-editor": "file:../../modules/custom-elements/markdown-editor",
+    "@bgoodman/minesweeper-game": "file:../../modules/custom-elements/minesweeper",
+    "custom-elements-bundle": "file:../../modules/custom-elements-bundle",
     "rollup": "^1.29.0",
     "rollup-plugin-terser": "^5.2.0",
     "rollup-plugin-typescript2": "^0.25.3",
     "serve": "^11.3.0",
     "typescript": "^3.7.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "url-join": "^4.0.1"
+  }
 }

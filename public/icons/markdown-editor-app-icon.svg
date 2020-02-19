@@ -1,0 +1,17 @@
+<svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="32" width="32" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Markdown Editor</title>
+  <rect id="svg_16" height="0.07077" width="0" y="5.12407" x="33.71904" fill-opacity="null" stroke-opacity="null" stroke="#000000" fill="#aad4ff"/>
+  <rect id="svg_18" height="9.27834" width="14.94844" y="0.87934" x="13.25315" stroke-width="null" fill="#ffffff"/>
+  <path id="svg_17" d="m24.87279,7.49028l-2.18903,-1.37587c-0.55231,-0.3468 -1.28006,-0.17988 -1.62807,0.37253l-0.86282,1.37331l4.18772,2.63021l0.86351,-1.37266c0.34668,-0.55308 0.18122,-1.28149 -0.37131,-1.62752l0,0zm-11.96017,12.34925l4.01613,2.51564l6.82567,-10.86591l-4.18994,-2.63087l-6.82368,10.86659l0,0.00001zm-0.6397,3.34175l-0.0925,2.47049c0.72856,-0.38536 1.45712,-0.77072 2.18568,-1.15608l2.03112,-1.07242l-3.98297,-2.48176l-0.14133,2.23977l0,0l0,0z" stroke-opacity="null" stroke="#000000" fill="#56aaff"/>
+  <text stroke="null" transform="matrix(0.7642064094543458,0,0,0.7642064094543458,-2.249752007424832,-0.5643638744950297) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_19" y="20.69605" x="4.54755" stroke-width="0" fill="#000000">#</text>
+ </g>
+</svg>

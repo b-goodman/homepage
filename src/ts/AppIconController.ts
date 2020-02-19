@@ -5,6 +5,7 @@ export enum App {
     MINESWEEPER = "ms-app",
     CLOCK = "clock-app",
     CONSOLE = "console-app",
+    LATEST_ARTICLE_VIEW = "latest-article-view",
 };
 
 export default class AppIconController {
@@ -14,7 +15,8 @@ export default class AppIconController {
 
     public msApp: ApplicationInstance<MinesweeperGame.Element>;
     public clockApp: ApplicationInstance;
-    public consoleApp: ApplicationInstance<CodeEdit.Element>;
+    public markdownEditor: ApplicationInstance<CodeEdit.Element>;
+    public latestArticleView: ApplicationInstance;
 
     public static openApps: Map<App, HTMLElement> = new Map();
     public static activeApp: App|undefined = undefined;
@@ -36,8 +38,11 @@ export default class AppIconController {
 
         this.clockApp = new ApplicationInstance(App.CLOCK, "date-clock", "Clock", this.parentEl);
 
-        this.consoleApp = new ApplicationInstance(App.CONSOLE, "code-edit", "Console", this.parentEl);
-        this.consoleApp.applicationEl.mode = CodeEdit.Mode.javascript;
+        this.markdownEditor = new ApplicationInstance(App.CONSOLE, "markdown-editor", "Markdown Editor", this.parentEl);
+        this.markdownEditor.applicationEl.mode = CodeEdit.Mode.javascript;
+
+        this.latestArticleView = new ApplicationInstance(App.LATEST_ARTICLE_VIEW, "latest-blog-article", "Latest Blog Article", this.parentEl);
+        this.latestArticleView.openApp(); // open on page load
     }
 
     private handleIconDblClick = (event: MouseEvent) => {
@@ -49,11 +54,12 @@ export default class AppIconController {
             case "clock-app":
                 this.clockApp.openApp();
                 break;
-            case "console-app":
-                this.consoleApp.openApp();
+            case "markdown-editor-app":
+                this.markdownEditor.openApp();
                 break;
+            case "blog-latest-view":
+                this.latestArticleView.openApp();
             default:
-                console.log(appID);
                 break;
         }
     };

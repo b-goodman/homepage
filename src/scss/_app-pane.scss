@@ -20,11 +20,7 @@
     }
 }
 
-#apps-pane {
-    left: 90vw;
-    top: 10vh;
-    // width: 120px;
-
+.icon-pane {
     hr {
         border: none;
         border-top: 3px double #333;
@@ -41,6 +37,11 @@
         position: relative;
         top: -13px;
     }
+}
+
+#apps-pane {
+    left: 90vw;
+    top: 10vh;
 
     hr[data-text="Games"]:after {
         content: "Games"
@@ -52,5 +53,23 @@
 
     hr[data-text="Utilities"]:after {
         content: "Utilities"
+    }
+
+    hr[data-text="Blog"]:after {
+        content: "Blog";
+    }
+}
+
+
+#latest-article-view {
+    width: 600px;
+    height: 73%;
+
+    iframe {
+        width: 100%;
+        height: 93%;
+    }
+    &[minimized="true"] {
+        height: 0px;
     }
 }

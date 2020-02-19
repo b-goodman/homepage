@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#A6A6A6">
+    <meta name="description" content="">
     <link rel="stylesheet" href="/public/css/index.css"/>
     <script type="module" src="/public/modules/custom-elements/index.js"></script>
     <script type="module" src="/public/modules/minesweeper/index.js"></script>
     <script type="module" src="/public/modules/clock/index.js"></script>
+    <script type="module" src="/public/modules/markdown-editor/index.js"></script>
+    <script type="module" src="/public/modules/latest-blog-article/index.js"></script>
     <script type="module">
         import {initializeViewControllers} from "/public/client/index.js"
         initializeViewControllers();
     </script>
-    <title>Document</title>
+    <title>Benjamin Goodman</title>
 </head>
 <body>
 
@@ -29,9 +33,22 @@
                 <code-edit></code-edit>
             </drag-pane> -->
 
-            <drag-pane hide-controls id="apps-pane" key="app-pane">
-                <hr data-text="Games">
+            <drag-pane hide-controls class="icon-pane" id="apps-pane" key="app-pane">
 
+                <hr data-text="Blog">
+                <div class="s-grid">
+                    <div class="click-icon app-icon" data-app-name="blog-latest-view" title="Latest Article">
+                        <img src="/public/icons/blog-latest-icon.svg" alt="Link to blog."/>
+                    </div>
+
+                    <div class="click-icon app-icon" data-app-name="blog-site-app" title="Visit Blog">
+                        <a href="https://blog.thebgoodman.com">
+                            <img src="/public/icons/blog-link-icon.svg" alt="Link to blog."/>
+                        </a>
+                    </div>
+                </div>
+
+                <hr data-text="Games">
                 <div class="s-grid">
                     <div class="click-icon app-icon" data-app-name="ms-app" title="Minesweeper">
                         <img src="/public/icons/ms-app-icon.svg" alt="Minesweeper game icon."/>
@@ -39,15 +56,13 @@
                 </div>
 
                 <hr data-text="Productivity">
-
                 <div class="s-grid">
-                    <div class="click-icon app-icon" data-app-name="console-app" title="Console">
-                        <img src="public/icons/console-app-icon.svg" alt="Console icon." />
+                    <div class="click-icon app-icon" data-app-name="markdown-editor-app" title="Markdown Editor">
+                        <img src="/public/icons/markdown-editor-app-icon.svg" alt="Console icon." />
                     </div>
                 </div>
 
                 <hr data-text="Utilities">
-
                 <div class="s-grid">
                     <div class="click-icon app-icon" data-app-name="clock-app" title="Clock">
                         <img src="/public/icons/clock-app-icon.svg" alt="Clock icon."/>
