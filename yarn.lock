@@ -24,7 +24,7 @@
 "@bgoodman/markdown-editor@file:../../modules/custom-elements/markdown-editor":
   version "1.0.0"
   dependencies:
-    markdown-converter "file:../../../Library/Caches/Yarn/v4/npm-@bgoodman-markdown-editor-1.0.0-4cfc90a7-406b-4ccc-a966-e612b25bc285-1582080954124/node_modules/markdown-converter"
+    markdown-converter "file:../../modules/markdown-converter"
 
 "@bgoodman/minesweeper-game@file:../../modules/custom-elements/minesweeper":
   version "1.1.1"
@@ -251,7 +251,7 @@ cross-spawn@^5.0.1:
 "custom-elements-bundle@file:../../modules/custom-elements-bundle":
   version "1.0.0"
   dependencies:
-    img-slideshow "file:../../../Library/Caches/Yarn/v4/npm-custom-elements-bundle-1.0.0-0f459190-9713-4559-b9cd-5893739fb57f-1582080954145/node_modules/custom-elements/img-slideshow"
+    img-slideshow "file:../../modules/custom-elements/img-slideshow"
 
 debug@2.6.9:
   version "2.6.9"
@@ -508,9 +508,9 @@ minimatch@3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
-  integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
+  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
 ms@2.0.0:
   version "2.0.0"
