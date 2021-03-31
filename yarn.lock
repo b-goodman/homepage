@@ -24,7 +24,7 @@
 "@bgoodman/markdown-editor@file:../../modules/custom-elements/markdown-editor":
   version "1.0.0"
   dependencies:
-    markdown-converter "file:../../../Library/Caches/Yarn/v4/npm-@bgoodman-markdown-editor-1.0.0-4cfc90a7-406b-4ccc-a966-e612b25bc285-1582080954124/node_modules/markdown-converter"
+    markdown-converter "file:../../modules/markdown-converter"
 
 "@bgoodman/minesweeper-game@file:../../modules/custom-elements/minesweeper":
   version "1.1.1"
@@ -251,7 +251,7 @@ cross-spawn@^5.0.1:
 "custom-elements-bundle@file:../../modules/custom-elements-bundle":
   version "1.0.0"
   dependencies:
-    img-slideshow "file:../../../Library/Caches/Yarn/v4/npm-custom-elements-bundle-1.0.0-0f459190-9713-4559-b9cd-5893739fb57f-1582080954145/node_modules/custom-elements/img-slideshow"
+    img-slideshow "file:../../modules/custom-elements/img-slideshow"
 
 debug@2.6.9:
   version "2.6.9"
@@ -945,9 +945,9 @@ wrap-ansi@^5.1.0:
     strip-ansi "^5.0.0"
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha512-wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==
 
 yallist@^2.1.2:
   version "2.1.2"
