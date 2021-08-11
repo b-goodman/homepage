@@ -24,7 +24,7 @@
 "@bgoodman/markdown-editor@file:../../modules/custom-elements/markdown-editor":
   version "1.0.0"
   dependencies:
-    markdown-converter "file:../../../Library/Caches/Yarn/v4/npm-@bgoodman-markdown-editor-1.0.0-4cfc90a7-406b-4ccc-a966-e612b25bc285-1582080954124/node_modules/markdown-converter"
+    markdown-converter "file:../../modules/markdown-converter"
 
 "@bgoodman/minesweeper-game@file:../../modules/custom-elements/minesweeper":
   version "1.1.1"
@@ -251,7 +251,7 @@ cross-spawn@^5.0.1:
 "custom-elements-bundle@file:../../modules/custom-elements-bundle":
   version "1.0.0"
   dependencies:
-    img-slideshow "file:../../../Library/Caches/Yarn/v4/npm-custom-elements-bundle-1.0.0-0f459190-9713-4559-b9cd-5893739fb57f-1582080954145/node_modules/custom-elements/img-slideshow"
+    img-slideshow "file:../../modules/custom-elements/img-slideshow"
 
 debug@2.6.9:
   version "2.6.9"
@@ -586,9 +586,9 @@ path-key@^2.0.0:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@2.2.1:
   version "2.2.1"
